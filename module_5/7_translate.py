@@ -16,7 +16,7 @@ morze_dict = {'A': '.-', 'B': '-...', 'C': '-.-.', ord('D'): '-..', ord('E'): '.
               '8': '---..', '9': '----.'}
 
 string = 'Hello world'
-# translated = string.upper().translate(morze_dict)
+translated = string.upper().translate(morze_dict)
 prepare = []
 for ch in string:
     prepare.append(ch.upper().translate(morze_dict))
